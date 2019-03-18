@@ -1,5 +1,23 @@
 /* All styles for your Card Components live here */
 
+.card-container {
+	border: 2px solid gray;
+}
+
 .banner {
 	width: 100%;
+}
+
+.card-content h2 {
+	font-size: 1rem;
+	text-decoration: none;
+}
+
+.card-container p {
+	font-size: 1rem;
+	text-decoration: none;
+}
+
+.url {
+	color: gray;
 }

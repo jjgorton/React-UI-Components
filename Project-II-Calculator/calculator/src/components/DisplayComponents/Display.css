@@ -137,11 +137,11 @@ body {
 }
 
 .display {
-	width: 450px;
+	width: 453px;
 	height: 125px;
 	background: black;
 	color: white;
-	font-size: 5rem;
+	font-size: 12rem;
 	text-align: right;
 	margin: 0;
 }

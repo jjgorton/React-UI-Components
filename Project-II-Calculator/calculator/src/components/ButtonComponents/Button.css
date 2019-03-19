@@ -137,12 +137,12 @@ body {
 }
 
 .operater {
-	background: red;
+	background: rgb(133, 12, 12);
 	color: white;
 	border: 1px solid gray;
-	width: 111px;
-	height: 96px;
-	font-size: 5rem;
+	width: 117px;
+	height: 94px;
+	font-size: 7rem;
 }
 
 .number {
@@ -150,7 +150,7 @@ body {
 	color: black;
 	border: 1px solid gray;
 	width: 111px;
-	height: 96px;
+	height: 94px;
 	font-size: 5rem;
 }
 
@@ -158,7 +158,7 @@ body {
 	background: white;
 	color: black;
 	border: 1px solid gray;
-	width: 335px;
-	height: 96px;
+	width: 334px;
+	height: 94px;
 	font-size: 5rem;
 }

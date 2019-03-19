@@ -5,5 +5,14 @@
 
 .app-container {
 	max-width: 40%;
+	display: flex;
 	margin: auto;
+	box-shadow: 3px 3px 10px gray;
+	padding: 20px;
+}
+
+.logo {
+	width: 60px;
+	height: 60px;
+	padding: 10px;
 }

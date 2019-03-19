@@ -1,23 +1,42 @@
 /* All styles for your Card Components live here */
 
 .card-container {
-	border: 2px solid gray;
+	/* border: 2px solid red; */
+	border-radius: 10px;
 }
 
 .banner {
 	width: 100%;
+	border-radius: 5px 5px 0 0;
+	margin: 0;
+	transform: translate(0, 8px);
+	/* border: 2px solid red; */
+}
+
+.card-content {
+	border: 2px solid lightgray;
+	margin: 0;
+	padding: 10px;
+	border-radius: 5px;
 }
 
 .card-content h2 {
 	font-size: 1rem;
-	text-decoration: none;
+	color: black;
+	margin: 0;
 }
 
 .card-container p {
 	font-size: 1rem;
-	text-decoration: none;
+	color: black;
+	margin: 10px 0;
 }
 
 .url {
 	color: gray;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
 }

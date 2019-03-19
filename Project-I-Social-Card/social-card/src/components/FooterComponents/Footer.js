@@ -2,7 +2,14 @@ import React from 'react';
 import './Footer.css';
 
 const Footer = () => {
-	return <p>icons go here from fontawsome</p>;
+	return (
+		<div className="icons">
+			<i class="far fa-comment" />
+			<i class="fas fa-sync-alt" />
+			<i class="far fa-heart" />
+			<i class="far fa-envelope" />
+		</div>
+	);
 };
 
 export default Footer;

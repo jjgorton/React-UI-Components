@@ -4,7 +4,14 @@ import './Button.css';
 const OperatorButton = (props) => {
 	return (
 		<div className="opBut">
-			<button className={props.buttonStyle}>{props.text}</button>
+			<button
+				onClick={props.click}
+				className={props.buttonStyle}
+				data-text={props.text}
+				data-operation={props.operation}
+			>
+				{props.text}
+			</button>
 		</div>
 	);
 };

@@ -2,7 +2,7 @@ import React from 'react';
 import './Display.css';
 
 const CalculatorDisplay = (props) => {
-	return <textarea className={props.displayStyle} placeholder={props.placeholder} />;
+	return <div className={props.displayStyle}>{props.text}</div>;
 };
 
 export default CalculatorDisplay;

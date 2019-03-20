@@ -4,7 +4,9 @@ import './Button.css';
 const ActionButton = (props) => {
 	return (
 		<div className="actBut">
-			<button className={props.buttonStyle}>{props.text}</button>
+			<button onClick={props.click} className={props.buttonStyle} data-text={props.text}>
+				{props.text}
+			</button>
 		</div>
 	);
 };

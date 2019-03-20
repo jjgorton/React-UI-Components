@@ -141,7 +141,8 @@ body {
 	height: 125px;
 	background: black;
 	color: white;
-	font-size: 12rem;
+	font-size: 10rem;
 	text-align: right;
 	margin: 0;
+	padding: 10px;
 }
